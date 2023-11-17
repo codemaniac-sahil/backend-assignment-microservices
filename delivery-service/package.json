@@ -1,0 +1,20 @@
+{
+  "name": "delivery-assignment-microservices",
+  "version": "1.0.0",
+  "description": "",
+  "main": "user-services.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon delivery-service.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^8.0.1",
+    "nodemon": "^3.0.1"
+  }
+}
